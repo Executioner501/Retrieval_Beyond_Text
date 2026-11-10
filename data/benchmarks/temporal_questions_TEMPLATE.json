@@ -1,0 +1,32 @@
+[
+  {
+    "_instruction": "Template entry 1 for a latest-update question. In a chat where a decision or plan was revised, this targets the final/current plan. Set 'source_timestamp' to the exact date and time (from the chat export) of the message containing the latest decision. Put a brief snippet in 'source_text_snippet'.",
+    "id": "t_example_01",
+    "chat": "example_chat_name",
+    "question": "What did we finally decide for our project framework?",
+    "question_type": "latest-update",
+    "ground_truth_answer": "We finally decided to use React instead of Vue.",
+    "source_timestamp": "15/08/2024 16:45",
+    "source_text_snippet": "final decision is React"
+  },
+  {
+    "_instruction": "Template entry 2 for a latest-update question. Targets a rescheduled deadline or meeting time that changed after an initial announcement.",
+    "id": "t_example_02",
+    "chat": "example_chat_name",
+    "question": "What is the updated deadline for our report submission?",
+    "question_type": "latest-update",
+    "ground_truth_answer": "The submission deadline was extended to Friday at 11:59 PM.",
+    "source_timestamp": "22/09/2024 11:30",
+    "source_text_snippet": "deadline postponed to Friday"
+  },
+  {
+    "_instruction": "Template entry 3 for a latest-update question. Targets a revised location, role assignment, or meeting venue that supersedes an earlier agreement.",
+    "id": "t_example_03",
+    "chat": "example_chat_name",
+    "question": "Where did we eventually agree to meet for lunch?",
+    "question_type": "latest-update",
+    "ground_truth_answer": "We changed the venue from the cafeteria to the campus gate cafe.",
+    "source_timestamp": "05/10/2024 13:10",
+    "source_text_snippet": "let's go to gate cafe instead"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "n12",
+    "chat": "diddy",
+    "question": "Which train was I planning to take to Karunagappally?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "The 1 am train from Aluva to Karunagappally (03/05/2026).",
+    "source_timestamp": "03/05/2026 14:45",
+    "source_text_snippet": "I was planning to take the 1am train from aluva",
+    "notes": ""
+  },
+  {
+    "id": "n13",
+    "chat": "diddy",
+    "question": "Did anyone mention a Cognizant job posting?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 08/04/2026 I asked Diddy to check the Cognizant job posting on Haveloc.",
+    "source_timestamp": "08/04/2026 13:01",
+    "source_text_snippet": "once cehck the cognizant job posting",
+    "notes": ""
+  },
+  {
+    "id": "n15",
+    "chat": "diddy",
+    "question": "Intiki evaru vacharu?",
+    "question_type": "code-mixed",
+    "ground_truth_answer": "Relatives came home, so my dad was also working from home (22/04/2025).",
+    "source_timestamp": "22/04/2025 19:47",
+    "source_text_snippet": "Intiki relatives vacharu",
+    "notes": ""
+  },
+  {
+    "id": "n17",
+    "chat": "yaoi",
+    "question": "Which OOP topics come after the mid term?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Polymorphism, method overloading/overriding, data abstraction, abstract classes/methods, interfaces and more (16/06/2024).",
+    "source_timestamp": "16/06/2024 19:55",
+    "source_text_snippet": "After mid term",
+    "notes": ""
+  },
+  {
+    "id": "n19",
+    "chat": "yaoi",
+    "question": "What food places are there outside the gate?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "A McDonald's and a Subway (21/06/2026).",
+    "source_timestamp": "21/06/2026 11:35",
+    "source_text_snippet": "There is a mcd and subway",
+    "notes": ""
+  },
+  {
+    "id": "n2",
+    "chat": "nikhil",
+    "question": "How long does the Dropbox token stay valid?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "I said on 16/09/2025 that the Dropbox token expires every 4 hours.",
+    "source_timestamp": "16/09/2025 12:48",
+    "source_text_snippet": "Drop box token expires every 4 hrs",
+    "notes": ""
+  },
+  {
+    "id": "n21",
+    "chat": "yaoi",
+    "question": "Which character was I desperate to pull in the game?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "Citlali; I joked I'd commit crimes if I didn't get her (18/06/2026).",
+    "source_timestamp": "18/06/2026 18:00",
+    "source_text_snippet": "If I wont get citlali",
+    "notes": ""
+  },
+  {
+    "id": "n23",
+    "chat": "yaoi",
+    "question": "What happened to George Russell at the end of the race?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "I said Russell seemed to lift on the last corner (27/06/2026).",
+    "source_timestamp": "27/06/2026 23:29",
+    "source_text_snippet": "Seems george russel lifted on the last corner",
+    "notes": ""
+  },
+  {
+    "id": "n24",
+    "chat": "yaoi",
+    "question": "How many pity and lucky spins did Yaoi Man have?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "33 pity and 50 lucky spins (27/12/2025).",
+    "source_timestamp": "27/12/2025 08:53",
+    "source_text_snippet": "I'm at 33 pity",
+    "notes": ""
+  },
+  {
+    "id": "n25",
+    "chat": "nikhil",
+    "question": "Did Nikhil talk about going to a wedding?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  },
+  {
+    "id": "n26",
+    "chat": "diddy",
+    "question": "Did we ever plan to go swimming?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  },
+  {
+    "id": "n3",
+    "chat": "nikhil",
+    "question": "What workflow did I describe for the student portfolio system?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Student Upload → Faculty Review → Verified Record → Portfolio Generation → Reports & External Verification (07/09/2025).",
+    "source_timestamp": "07/09/2025 21:11",
+    "source_text_snippet": "Student Upload → Faculty Review",
+    "notes": ""
+  },
+  {
+    "id": "n5",
+    "chat": "nikhil",
+    "question": "How many papers should we keep in the references section?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Nikhil asked; I said apparently 13 papers from Amrita, though that may only apply if publishing through Amrita (01/12/2025).",
+    "source_timestamp": "01/12/2025 01:16",
+    "source_text_snippet": "It seems 13 papers from amrita",
+    "notes": ""
+  },
+  {
+    "id": "n6",
+    "chat": "nikhil",
+    "question": "Which tools and frameworks did I list for the logos on the slide?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Python, PyTorch, Colab, Hugging Face, SciPy and Google Earth (14/10/2025).",
+    "source_timestamp": "14/10/2025 21:33",
+    "source_text_snippet": "we are just using puthon pytorch",
+    "notes": ""
+  },
+  {
+    "id": "n8",
+    "chat": "nikhil",
+    "question": "Did I ask about any outlier detection or discretization techniques?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "Yes, on 22/09/2025 I asked Nikhil to explain ChiMerge and LOF.",
+    "source_timestamp": "22/09/2025 11:14",
+    "source_text_snippet": "Can you explain chi merge and lof",
+    "notes": ""
+  },
+  {
+    "id": "n9",
+    "chat": "diddy",
+    "question": "What subject-wise scores did Diddy share?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "ADM 41, Physics 36.5, Linear 30, Discrete 35.5, OOPs 22.5, UID 23.5 (18/04/2024).",
+    "source_timestamp": "18/04/2024 15:21",
+    "source_text_snippet": "Adm 41",
+    "notes": ""
+  },
+  {
+    "id": "q10",
+    "chat": "nikhil",
+    "question": "Did we ever talk about someone's Valorant ID or tag?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 27/03/2024, Nikhil mentioned looking at Pranav's Valorant ID and tag, and a tag ('joseannan#7039') was shared shortly after.",
+    "source_timestamp": "27/03/2024 15:31",
+    "source_text_snippet": "Look pranav's valo I'd and tag",
+    "notes": "Tests whether a short message with a typo ('I'd' for 'ID') and its correction ('Tag*') a moment later are both retrieved as part of the same context."
+  },
+  {
+    "id": "q13",
+    "chat": "diddy",
+    "question": "Did we ever discuss a trip to Goa?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No mention of a trip to Goa found in the chat history.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": "Negative control for the Diddy chat."
+  },
+  {
+    "id": "q16",
+    "chat": "diddy",
+    "question": "Chesava ante em cheppadu?",
+    "question_type": "code-mixed",
+    "ground_truth_answer": "Diddy said 'chesava' (Telugu, informal for 'did you do it?') on 23/08/2024 at 10:22 — a short check-in style message, likely following up on a task or assignment.",
+    "source_timestamp": "23/08/2024 10:22",
+    "source_text_snippet": "chesava",
+    "notes": "Tests retrieval when both the query AND the target message are in code-mixed/Telugu-English text. Important: verify actual surrounding context before finalizing this answer, as 'chesava' alone is ambiguous without more context."
+  },
+  {
+    "id": "q9",
+    "chat": "nikhil",
+    "question": "Did Nikhil ever ask me if I played Valorant?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Yes, on 06/05/2024 at 02:06, Nikhil asked 'Did u play valo?' and followed up asking to be texted when playing comp.",
+    "source_timestamp": "06/05/2024 02:06",
+    "source_text_snippet": "Did u play valo?",
+    "notes": "Tests handling of informal abbreviation ('valo' for Valorant) in retrieval."
+  },
+  {
+    "id": "v1",
+    "chat": "yaoi",
+    "question": "When were the S3 classes going to start after they were postponed?",
+    "question_type": "time-based",
+    "ground_truth_answer": "S3 classes were postponed to 23 September (message on 09/08/2024).",
+    "source_timestamp": "09/08/2024 09:20",
+    "source_text_snippet": "S3 class commencement postponed",
+    "notes": ""
+  },
+  {
+    "id": "v10",
+    "chat": "diddy",
+    "question": "Which tools and frameworks were listed along with the Mistral-7B API?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Mistral-7B Instruct API, Hugging Face, Python, Flask, Next.js, Tailwind CSS, REST APIs and prompt engineering (06/02/2025).",
+    "source_timestamp": "06/02/2025 11:47",
+    "source_text_snippet": "Mistral-7B Instruct API",
+    "notes": ""
+  },
+  {
+    "id": "v11",
+    "chat": "diddy",
+    "question": "Did we consider rewriting our student management project in a different programming language?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "Yes, on 01/12/2024 I suggested moving it from Java to C and Diddy agreed.",
+    "source_timestamp": "01/12/2024 15:17",
+    "source_text_snippet": "Or can we do our student management project",
+    "notes": ""
+  },
+  {
+    "id": "v12",
+    "chat": "diddy",
+    "question": "Where would the test be held, and was there an alternative date?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "On campus after Amritapuri reopens, with no alternative date (01/08/2025).",
+    "source_timestamp": "01/08/2025 17:34",
+    "source_text_snippet": "The test will be held on campus",
+    "notes": ""
+  },
+  {
+    "id": "v14",
+    "chat": "diddy",
+    "question": "Who felt our current project idea's scope was too big?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Diddy (08/07/2026).",
+    "source_timestamp": "08/07/2026 12:26",
+    "source_text_snippet": "i think our current idea scope is too big",
+    "notes": ""
+  },
+  {
+    "id": "v16",
+    "chat": "yaoi",
+    "question": "What bug did Yaoi Man notice with the walls?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "At intersections it layered walls on top of each other instead of ending them (16/04/2026).",
+    "source_timestamp": "16/04/2026 16:33",
+    "source_text_snippet": "small bug is that intersections",
+    "notes": ""
+  },
+  {
+    "id": "v19",
+    "chat": "yaoi",
+    "question": "Which anime had I just finished watching?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "MHA (My Hero Academia), which I called really peak (08/01/2026).",
+    "source_timestamp": "08/01/2026 14:40",
+    "source_text_snippet": "I just finished mha",
+    "notes": ""
+  },
+  {
+    "id": "v2",
+    "chat": "diddy",
+    "question": "What was the deadline to submit our project topic in the form?",
+    "question_type": "time-based",
+    "ground_truth_answer": "Diddy said the topic had to be filled in by 11/6/25, 11 pm (09/06/2025).",
+    "source_timestamp": "09/06/2025 20:06",
+    "source_text_snippet": "Please share both the team details",
+    "notes": ""
+  },
+  {
+    "id": "v21",
+    "chat": "yaoi",
+    "question": "Did I ask for my keyboard's invoice?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 01/09/2025 I asked Yaoi Man to send it.",
+    "source_timestamp": "01/09/2025 17:32",
+    "source_text_snippet": "Can you send my keyboards invoice",
+    "notes": ""
+  },
+  {
+    "id": "v23",
+    "chat": "nikhil",
+    "question": "Did Nikhil and I talk about a football match?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  },
+  {
+    "id": "v25",
+    "chat": "yaoi",
+    "question": "Did we plan a trip to Manali?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  },
+  {
+    "id": "v5",
+    "chat": "diddy",
+    "question": "Until when were our holidays postponed?",
+    "question_type": "time-based",
+    "ground_truth_answer": "I told Diddy on 09/08/2024 that the holidays were postponed to 23 September.",
+    "source_timestamp": "09/08/2024 10:01",
+    "source_text_snippet": "U know itseems our holidays postpone",
+    "notes": ""
+  },
+  {
+    "id": "v6",
+    "chat": "nikhil",
+    "question": "Who did I say would submit the ADM assignments?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Dheeraj; I asked Nikhil to give the assignments to him (16/12/2024).",
+    "source_timestamp": "16/12/2024 11:42",
+    "source_text_snippet": "Give it to dheeraj he will submit",
+    "notes": ""
+  }
+]

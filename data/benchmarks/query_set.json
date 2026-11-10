@@ -1,0 +1,42 @@
+[
+  {
+    "query_id": "Q01",
+    "query_text": "What is our latest plan for the frontend?",
+    "ground_truth_answer": "We changed the plan and will use Flutter instead of React so we can run on Android and iOS.",
+    "expected_speakers": ["Rahul"],
+    "is_time_sensitive": true,
+    "gold_chunk_keywords": ["Flutter", "mobile devices"]
+  },
+  {
+    "query_id": "Q02",
+    "query_text": "Who was bringing the documents for the guide review?",
+    "ground_truth_answer": "Rahul said he will bring the documents tomorrow.",
+    "expected_speakers": ["Rahul"],
+    "is_time_sensitive": false,
+    "gold_chunk_keywords": ["bring the documents tomorrow"]
+  },
+  {
+    "query_id": "Q03",
+    "query_text": "What did we decide about the semester vacation trip?",
+    "ground_truth_answer": "Finalized Goa for December, booking train tickets next month.",
+    "expected_speakers": ["Rahul", "Sai", "Dheeraj"],
+    "is_time_sensitive": false,
+    "gold_chunk_keywords": ["Goa for December"]
+  },
+  {
+    "query_id": "Q04",
+    "query_text": "Did anyone finish the machine learning assignment?",
+    "ground_truth_answer": "Sai was working on question 3 and Dheeraj had not finished either.",
+    "expected_speakers": ["Sai", "Dheeraj"],
+    "is_time_sensitive": false,
+    "gold_chunk_keywords": ["working on question 3"]
+  },
+  {
+    "query_id": "Q05",
+    "query_text": "What was our initial frontend choice back in January?",
+    "ground_truth_answer": "React was finalized for the web dashboard.",
+    "expected_speakers": ["Rahul", "Sai"],
+    "is_time_sensitive": true,
+    "gold_chunk_keywords": ["React for the web dashboard"]
+  }
+]

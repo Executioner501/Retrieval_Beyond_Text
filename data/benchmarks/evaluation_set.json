@@ -1,0 +1,183 @@
+[
+  {
+    "id": "q1",
+    "chat": "yaoi",
+    "question": "When did I ask my friend for physics assignment help?",
+    "question_type": "time-based",
+    "ground_truth_answer": "On 30/03/2024, around 19:27",
+    "source_timestamp": "30/03/2024 19:27",
+    "source_text_snippet": "Bro can u send physics assignment answers?",
+    "notes": ""
+  },
+  {
+    "id": "q2",
+    "chat": "yaoi",
+    "question": "Did my friend send me the Java code for an assignment?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 15/04/2024 around 15:08, a Java Invoice/Payable class implementation was shared.",
+    "source_timestamp": "15/04/2024 15:08",
+    "source_text_snippet": "package labsheet6; public interface Payable {...",
+    "notes": "Tests whether retrieval correctly handles a long multi-line code message."
+  },
+  {
+    "id": "q3",
+    "chat": "yaoi",
+    "question": "Who mentioned Brawl Stars first?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Yaoi Man, sharing a Brawl Stars friend invite link on 17/03/2024 at 13:14.",
+    "source_timestamp": "17/03/2024 13:14",
+    "source_text_snippet": "https://link.brawlstars.com/invite/friend/...",
+    "notes": ""
+  },
+  {
+    "id": "q4",
+    "chat": "yaoi",
+    "question": "Did we ever discuss going to a concert together?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No mention of a concert found in the chat history.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": "Negative control - system should NOT confidently retrieve/fabricate an answer here."
+  },
+  {
+    "id": "q5",
+    "chat": "diddy",
+    "question": "When was the deadline for a payment I mentioned?",
+    "question_type": "time-based",
+    "ground_truth_answer": "The last day for payment was mentioned as being due at 8:00pm on 12/11/2024.",
+    "source_timestamp": "12/11/2024 13:29",
+    "source_text_snippet": "Last day for payment today 8:00pm",
+    "notes": "Tests exact time-window retrieval."
+  },
+  {
+    "id": "q6",
+    "chat": "diddy",
+    "question": "Did Diddy ever share an internship opportunity?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 13/11/2024, Diddy shared a Google STEP Internship 2025 opportunity post addressed to a coding community.",
+    "source_timestamp": "13/11/2024 00:36",
+    "source_text_snippet": "Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community!",
+    "notes": "Tests retrieval of a forwarded/announcement-style message, not a casual chat line."
+  },
+  {
+    "id": "q7",
+    "chat": "diddy",
+    "question": "What sorting algorithms were listed in our chat before an exam?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Binary search, linear search, bubble sort, merge sort, selection sort, and insertion sort were listed on 06/11/2024.",
+    "source_timestamp": "06/11/2024 20:47",
+    "source_text_snippet": "binary search | linear search | bubble sort | merge sort | selection sort | insertion srt",
+    "notes": "Tests whether short list-style messages are retrieved correctly, not skipped as noise."
+  },
+  {
+    "id": "q8",
+    "chat": "diddy",
+    "question": "Did we ever share MATLAB code for plotting a plane using meshgrid?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, around 05/04/2024, both parties exchanged MATLAB code using meshgrid and linspace to generate plane points.",
+    "source_timestamp": "05/04/2024 13:20",
+    "source_text_snippet": "v = [1; 2; 3]; span = linspace(-3,3,10); [x,y,z] = meshgrid(span,span,span); plane_points = v * x(:)",
+    "notes": "Tests retrieval of back-to-back multi-line code snippets from two different speakers on the same topic."
+  },
+  {
+    "id": "q9",
+    "chat": "nikhil",
+    "question": "Did Nikhil ever ask me if I played Valorant?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Yes, on 06/05/2024 at 02:06, Nikhil asked 'Did u play valo?' and followed up asking to be texted when playing comp.",
+    "source_timestamp": "06/05/2024 02:06",
+    "source_text_snippet": "Did u play valo?",
+    "notes": "Tests handling of informal abbreviation ('valo' for Valorant) in retrieval."
+  },
+  {
+    "id": "q10",
+    "chat": "nikhil",
+    "question": "Did we ever talk about someone's Valorant ID or tag?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 27/03/2024, Nikhil mentioned looking at Pranav's Valorant ID and tag, and a tag ('joseannan#7039') was shared shortly after.",
+    "source_timestamp": "27/03/2024 15:31",
+    "source_text_snippet": "Look pranav's valo I'd and tag",
+    "notes": "Tests whether a short message with a typo ('I'd' for 'ID') and its correction ('Tag*') a moment later are both retrieved as part of the same context."
+  },
+  {
+    "id": "q11",
+    "chat": "nikhil",
+    "question": "Did Nikhil ever send a laptop recommendation?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 10/10/2023, Nikhil shared a Flipkart link for an Acer Aspire 7 (2023) laptop with Core i5 12th Gen, 16GB RAM, 512GB SSD, and an RTX 3050 GPU.",
+    "source_timestamp": "10/10/2023 22:43",
+    "source_text_snippet": "Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H...",
+    "notes": "Tests retrieval of a long single-line product recommendation message."
+  },
+  {
+    "id": "q12",
+    "chat": "nikhil",
+    "actual_source_chat": "yaoi",
+    "question": "Did I ever ask Nikhil to check if ollama was installed?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "No — this request was actually made in the Yaoi Man chat, not the Nikhil chat. On 30/05/2025, the message 'Check if ollama is installed in the systems' was sent to Yaoi Man.",
+    "source_timestamp": "30/05/2025 09:24",
+    "source_text_snippet": "Check if ollama is installed in the systems",
+    "notes": "Deliberate cross-chat confusion test: the question NAMES Nikhil, but the correct answer is that this never happened in the Nikhil chat at all — it happened in a different chat. Checks whether retrieval correctly scopes to the named chat and doesn't wrongly pull in content from a different chat just because it's topically similar."
+  },
+  {
+    "id": "q13",
+    "chat": "diddy",
+    "question": "Did we ever discuss a trip to Goa?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No mention of a trip to Goa found in the chat history.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": "Negative control for the Diddy chat."
+  },
+  {
+    "id": "q14",
+    "chat": "nikhil",
+    "question": "Did Nikhil ever recommend a Canva template?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 05/11/2025 at 00:29, Nikhil shared a Canva templates link.",
+    "source_timestamp": "05/11/2025 00:29",
+    "source_text_snippet": "https://www.canva.com/templates/EAGp8a-91Xk/",
+    "notes": "Tests whether a bare URL-only message is retrieved correctly for a topical query (design templates)."
+  },
+  {
+    "id": "q15",
+    "chat": "nikhil",
+    "question": "Did we ever discuss buying a car together?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No mention of buying a car found in the chat history.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": "Negative control for the Nikhil chat."
+  },
+  {
+    "id": "q16",
+    "chat": "diddy",
+    "question": "Chesava ante em cheppadu?",
+    "question_type": "code-mixed",
+    "ground_truth_answer": "Diddy said 'chesava' (Telugu, informal for 'did you do it?') on 23/08/2024 at 10:22 — a short check-in style message, likely following up on a task or assignment.",
+    "source_timestamp": "23/08/2024 10:22",
+    "source_text_snippet": "chesava",
+    "notes": "Tests retrieval when both the query AND the target message are in code-mixed/Telugu-English text. Important: verify actual surrounding context before finalizing this answer, as 'chesava' alone is ambiguous without more context."
+  },
+  {
+    "id": "q17",
+    "chat": "yaoi",
+    "question": "What did Yaoi Man say when talking about game speed stickers?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "On 04/06/2026, there was a mention of having 'speed stickers' in what appears to be a racing/game context.",
+    "source_timestamp": "04/06/2026 11:47",
+    "source_text_snippet": "Dam you have the speed stickers",
+    "notes": "Casual/slang-heavy message — tests retrieval robustness on very informal phrasing."
+  },
+  {
+    "id": "q18",
+    "chat": "diddy",
+    "question": "Was there ever a mark/grade correction mentioned?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 10/12/2024, Diddy mentioned a half-mark increase ('1/2 mark is increased ra').",
+    "source_timestamp": "10/12/2024 10:16",
+    "source_text_snippet": "1/2  mark  is  increased  ra",
+    "notes": "Tests retrieval of a short, spaced-out informal message about grades."
+  }
+]

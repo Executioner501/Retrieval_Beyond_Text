@@ -1,0 +1,37 @@
+10/01/2026, 09:30 - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
+10/01/2026, 09:31 - Rahul added Sai
+10/01/2026, 09:31 - Rahul added Dheeraj
+10/01/2026, 09:32 - Rahul: Hey guys, starting this group for our final year project discussions.
+10/01/2026, 09:33 - Sai: Awesome! Let's decide on the tech stack first.
+10/01/2026, 09:34 - Dheeraj: Agreed. Are we building the frontend in React or Flutter?
+10/01/2026, 09:35 - Rahul: For now, let's finalize React for the web dashboard.
+10/01/2026, 09:36 - Sai: Sounds good. React it is.
+10/01/2026, 09:38 - Rahul: <Media omitted>
+10/01/2026, 09:39 - Rahul: Check out this architecture reference diagram.
+Let me know what you think about the retrieval flow.
+10/01/2026, 09:40 - Dheeraj: Looks solid.
+
+10/01/2026, 12:45 - Sai: Anyone hungry? Let's grab lunch at the canteen.
+10/01/2026, 12:46 - Dheeraj: On my way!
+10/01/2026, 12:47 - Rahul: Same, 5 mins.
+
+12/08/2026, 10:30 - Rahul: Are we meeting tomorrow for the guide review?
+12/08/2026, 10:31 - Sai: Yes, after class around 4 PM.
+12/08/2026, 10:31 - Dheeraj: Who was bringing the documents and proposal printouts?
+12/08/2026, 10:32 - Rahul: I will bring the documents tomorrow.
+12/08/2026, 10:33 - Sai: Okay.
+12/08/2026, 10:33 - Dheeraj: Great.
+12/08/2026, 10:35 - Sai: By the way, where should we go for the semester break trip?
+12/08/2026, 10:36 - Dheeraj: Goa sounds good.
+12/08/2026, 10:36 - Rahul: Let's finalize Goa for December.
+12/08/2026, 10:37 - Sai: Nice, we should book train tickets next month.
+12/08/2026, 10:38 - Rahul: Did you finish the machine learning assignment submission due tonight?
+12/08/2026, 10:39 - Sai: Not yet, working on question 3.
+12/08/2026, 10:40 - Dheeraj: Same here.
+
+15/08/2026, 14:00 - Rahul: Urgent update regarding the project implementation.
+15/08/2026, 14:02 - Rahul: Bindhya ma'am suggested our prototype should be available on mobile devices for testing.
+15/08/2026, 14:03 - Dheeraj: So what does that mean for our frontend?
+15/08/2026, 14:05 - Rahul: We changed the plan and will use Flutter instead of React so we can run on Android and iOS.
+15/08/2026, 14:06 - Sai: Understood! I'll update the proposal documentation with Flutter.
+15/08/2026, 14:07 - Dheeraj: Perfect.

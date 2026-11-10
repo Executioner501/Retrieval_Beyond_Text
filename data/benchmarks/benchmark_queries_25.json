@@ -1,0 +1,231 @@
+[
+  {
+    "id": "Q01",
+    "query": "What is our latest plan for the frontend?",
+    "category": "TEMPORAL_UPDATE",
+    "ground_truth": "The plan was changed to use Flutter instead of React to support both Android and iOS.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["Flutter", "mobile devices"],
+    "is_time_sensitive": true,
+    "superseded_keywords": ["finalize React for the web dashboard"]
+  },
+  {
+    "id": "Q02",
+    "query": "Who was bringing the documents for the guide review?",
+    "category": "SPEAKER_ATTRIBUTION",
+    "ground_truth": "Rahul said he will bring the documents tomorrow.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["bring the documents tomorrow"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q03",
+    "query": "What did we decide about the semester break trip?",
+    "category": "DECISION_RETRIEVAL",
+    "ground_truth": "Let's finalize Goa for December, with train tickets to be booked next month.",
+    "expected_speakers": ["Rahul", "Sai", "Dheeraj"],
+    "target_keywords": ["Goa for December"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q04",
+    "query": "Did anyone finish the machine learning assignment?",
+    "category": "MULTI_TURN_FACTOID",
+    "ground_truth": "Neither Sai nor Dheeraj had finished; Sai was working on question 3.",
+    "expected_speakers": ["Sai", "Dheeraj"],
+    "target_keywords": ["working on question 3", "Same here"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q05",
+    "query": "What was our initial decision for the frontend back in January?",
+    "category": "TEMPORAL_UPDATE",
+    "ground_truth": "Back in January, the team agreed to finalize React for the web dashboard.",
+    "expected_speakers": ["Rahul", "Sai"],
+    "target_keywords": ["finalize React for the web dashboard"],
+    "is_time_sensitive": true
+  },
+  {
+    "id": "Q06",
+    "query": "What time is the guide review meeting tomorrow?",
+    "category": "DECISION_RETRIEVAL",
+    "ground_truth": "After class around 4 PM.",
+    "expected_speakers": ["Sai"],
+    "target_keywords": ["after class around 4 PM"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q07",
+    "query": "Who suggested that our prototype should be available on mobile devices?",
+    "category": "SPEAKER_ATTRIBUTION",
+    "ground_truth": "Bindhya ma'am suggested it, as relayed by Rahul.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["Bindhya ma'am suggested", "mobile devices"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q08",
+    "query": "Where did the group plan to go for lunch on January 10?",
+    "category": "DECISION_RETRIEVAL",
+    "ground_truth": "Grab lunch at the canteen.",
+    "expected_speakers": ["Sai"],
+    "target_keywords": ["canteen"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q09",
+    "query": "Who first suggested Goa for the vacation?",
+    "category": "SPEAKER_ATTRIBUTION",
+    "ground_truth": "Dheeraj suggested 'Goa sounds good.'",
+    "expected_speakers": ["Dheeraj"],
+    "target_keywords": ["Goa sounds good"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q10",
+    "query": "Why did we switch from React to Flutter?",
+    "category": "MULTI_TURN_FACTOID",
+    "ground_truth": "Bindhya ma'am suggested the prototype should be available on mobile devices so we can run on Android and iOS.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["mobile devices", "Android and iOS"],
+    "is_time_sensitive": true
+  },
+  {
+    "id": "Q11",
+    "query": "Who promised to update the proposal documentation with the new Flutter frontend?",
+    "category": "SPEAKER_ATTRIBUTION",
+    "ground_truth": "Sai promised to update the proposal documentation.",
+    "expected_speakers": ["Sai"],
+    "target_keywords": ["update the proposal documentation with Flutter"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q12",
+    "query": "When are we supposed to book train tickets for Goa?",
+    "category": "DECISION_RETRIEVAL",
+    "ground_truth": "Book train tickets next month.",
+    "expected_speakers": ["Sai"],
+    "target_keywords": ["book train tickets next month"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q13",
+    "query": "When is the machine learning assignment submission due?",
+    "category": "MULTI_TURN_FACTOID",
+    "ground_truth": "The submission was due tonight.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["due tonight"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q14",
+    "query": "Who asked about whether the frontend is in React or Flutter?",
+    "category": "SPEAKER_ATTRIBUTION",
+    "ground_truth": "Dheeraj asked 'Are we building the frontend in React or Flutter?'",
+    "expected_speakers": ["Dheeraj"],
+    "target_keywords": ["React or Flutter"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q15",
+    "query": "Who shared the architecture reference diagram?",
+    "category": "SPEAKER_ATTRIBUTION",
+    "ground_truth": "Rahul shared the architecture reference diagram.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["architecture reference diagram"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q16",
+    "query": "Are we building a mobile app or web app according to the latest decision?",
+    "category": "TEMPORAL_UPDATE",
+    "ground_truth": "Mobile app on Android and iOS using Flutter.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["Flutter instead of React", "Android and iOS"],
+    "is_time_sensitive": true,
+    "superseded_keywords": ["React for the web dashboard"]
+  },
+  {
+    "id": "Q17",
+    "query": "Who started the WhatsApp group for project discussions?",
+    "category": "SPEAKER_ATTRIBUTION",
+    "ground_truth": "Rahul created the group and added Sai and Dheeraj.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["starting this group for our final year project discussions"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q18",
+    "query": "How many minutes did Rahul say he would take to reach the canteen?",
+    "category": "MULTI_TURN_FACTOID",
+    "ground_truth": "5 mins.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["5 mins"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q19",
+    "query": "Which month was finalized for the Goa trip?",
+    "category": "DECISION_RETRIEVAL",
+    "ground_truth": "December.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["December"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q20",
+    "query": "What question number of the ML assignment was Sai working on?",
+    "category": "MULTI_TURN_FACTOID",
+    "ground_truth": "Question 3.",
+    "expected_speakers": ["Sai"],
+    "target_keywords": ["question 3"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q21",
+    "query": "What frontend framework should be in the updated proposal document?",
+    "category": "TEMPORAL_UPDATE",
+    "ground_truth": "Flutter.",
+    "expected_speakers": ["Sai"],
+    "target_keywords": ["proposal documentation with Flutter"],
+    "is_time_sensitive": true,
+    "superseded_keywords": ["React it is"]
+  },
+  {
+    "id": "Q22",
+    "query": "Who responded 'Looks solid' to the architecture diagram?",
+    "category": "SPEAKER_ATTRIBUTION",
+    "ground_truth": "Dheeraj responded 'Looks solid.'",
+    "expected_speakers": ["Dheeraj"],
+    "target_keywords": ["Looks solid"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q23",
+    "query": "Did the team agree to meet before or after class for the review?",
+    "category": "DECISION_RETRIEVAL",
+    "ground_truth": "After class around 4 PM.",
+    "expected_speakers": ["Sai"],
+    "target_keywords": ["after class around 4 PM"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q24",
+    "query": "What was discussed immediately after trip planning on August 12?",
+    "category": "MULTI_TURN_FACTOID",
+    "ground_truth": "The machine learning assignment submission due tonight.",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["machine learning assignment submission due tonight"],
+    "is_time_sensitive": false
+  },
+  {
+    "id": "Q25",
+    "query": "What is our current active frontend framework choice?",
+    "category": "TEMPORAL_UPDATE",
+    "ground_truth": "Flutter (superseding the earlier React decision).",
+    "expected_speakers": ["Rahul"],
+    "target_keywords": ["Flutter instead of React"],
+    "is_time_sensitive": true,
+    "superseded_keywords": ["finalize React for the web dashboard"]
+  }
+]

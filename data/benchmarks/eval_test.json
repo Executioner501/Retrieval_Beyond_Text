@@ -1,0 +1,333 @@
+[
+  {
+    "id": "n1",
+    "chat": "nikhil",
+    "question": "Did Nikhil invite me to join the Flipkart hackathon?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, Nikhil asked on 14/07/2024 whether I would join them for the Flipkart hackathon.",
+    "source_timestamp": "14/07/2024 10:44",
+    "source_text_snippet": "Dey will u join us for the Flipkart hackathon",
+    "notes": ""
+  },
+  {
+    "id": "n10",
+    "chat": "diddy",
+    "question": "Why would the lab be free on Thursday?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Diddy said Thursday is the ICPC contest, so the lab would be free (21/12/2024).",
+    "source_timestamp": "21/12/2024 23:08",
+    "source_text_snippet": "Thursday is icpc contest",
+    "notes": ""
+  },
+  {
+    "id": "n11",
+    "chat": "diddy",
+    "question": "What corrections were suggested for the YOLO paper draft?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Diddy listed fixes on 07/12/2025: remove start, YOLO architecture, short name for figure 1, change the random upscale/downscale preprocessing, and more.",
+    "source_timestamp": "07/12/2025 01:41",
+    "source_text_snippet": "- Remove start",
+    "notes": ""
+  },
+  {
+    "id": "n14",
+    "chat": "diddy",
+    "question": "Why was the plagiarism score of our report high?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "I said all the similarity was coming from the template (14/07/2026).",
+    "source_timestamp": "14/07/2026 12:28",
+    "source_text_snippet": "All the similarity is coming from the template",
+    "notes": ""
+  },
+  {
+    "id": "n18",
+    "chat": "yaoi",
+    "question": "What is a fake out in volleyball?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yaoi Man asked Dino what a fake out in volleyball is (03/01/2026).",
+    "source_timestamp": "03/01/2026 17:14",
+    "source_text_snippet": "Dino bhai what is fake out in volleyball",
+    "notes": ""
+  },
+  {
+    "id": "n20",
+    "chat": "yaoi",
+    "question": "Did I ask for ideas for the gen AI project?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Yes, on 11/04/2026 I asked Yaoi Man where to use gen AI in the project.",
+    "source_timestamp": "11/04/2026 19:14",
+    "source_text_snippet": "Bro for the gen ai project any ideas",
+    "notes": ""
+  },
+  {
+    "id": "n22",
+    "chat": "yaoi",
+    "question": "Why couldn't I work on my laptop?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "My laptop was away for cleaning (10/06/2026).",
+    "source_timestamp": "10/06/2026 13:50",
+    "source_text_snippet": "after my laptop comes from the cleaning",
+    "notes": ""
+  },
+  {
+    "id": "n27",
+    "chat": "yaoi",
+    "question": "Did we discuss adopting a puppy?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  },
+  {
+    "id": "n4",
+    "chat": "nikhil",
+    "question": "Which CNN architectures did I list for the image model comparison?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "EfficientNetV2, EfficientNetB4, RegNetX120, VGG16 and VGG19 (27/04/2026).",
+    "source_timestamp": "27/04/2026 12:50",
+    "source_text_snippet": "nikhil",
+    "notes": ""
+  },
+  {
+    "id": "n7",
+    "chat": "nikhil",
+    "question": "Did I ask Nikhil to bring something from my shelf?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Yes, on 21/05/2024 I asked Nikhil to bring my record book and file from my shelf.",
+    "source_timestamp": "21/05/2024 09:41",
+    "source_text_snippet": "Bro bring my record book",
+    "notes": ""
+  },
+  {
+    "id": "q1",
+    "chat": "yaoi",
+    "question": "When did I ask my friend for physics assignment help?",
+    "question_type": "time-based",
+    "ground_truth_answer": "On 30/03/2024, around 19:27",
+    "source_timestamp": "30/03/2024 19:27",
+    "source_text_snippet": "Bro can u send physics assignment answers?",
+    "notes": ""
+  },
+  {
+    "id": "q11",
+    "chat": "nikhil",
+    "question": "Did Nikhil ever send a laptop recommendation?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 10/10/2023, Nikhil shared a Flipkart link for an Acer Aspire 7 (2023) laptop with Core i5 12th Gen, 16GB RAM, 512GB SSD, and an RTX 3050 GPU.",
+    "source_timestamp": "10/10/2023 22:43",
+    "source_text_snippet": "Take a look at this Acer Aspire 7 (2023) Core i5 12th Gen 12450H...",
+    "notes": "Tests retrieval of a long single-line product recommendation message."
+  },
+  {
+    "id": "q12",
+    "chat": "nikhil",
+    "actual_source_chat": "yaoi",
+    "question": "Did I ever ask Nikhil to check if ollama was installed?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No — this request was actually made in the Yaoi Man chat, not the Nikhil chat. On 30/05/2025, the message 'Check if ollama is installed in the systems' was sent to Yaoi Man.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": "Asked of the Nikhil chat; the message is in the Yaoi chat, so the correct answer here is 'not found'."
+  },
+  {
+    "id": "q14",
+    "chat": "nikhil",
+    "question": "Did Nikhil ever recommend a Canva template?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 05/11/2025 at 00:29, Nikhil shared a Canva templates link.",
+    "source_timestamp": "05/11/2025 00:29",
+    "source_text_snippet": "https://www.canva.com/templates/EAGp8a-91Xk/",
+    "notes": "Tests whether a bare URL-only message is retrieved correctly for a topical query (design templates)."
+  },
+  {
+    "id": "q15",
+    "chat": "nikhil",
+    "question": "Did we ever discuss buying a car together?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No mention of buying a car found in the chat history.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": "Negative control for the Nikhil chat."
+  },
+  {
+    "id": "q17",
+    "chat": "yaoi",
+    "question": "What did Yaoi Man say when talking about game speed stickers?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "On 04/06/2026, there was a mention of having 'speed stickers' in what appears to be a racing/game context.",
+    "source_timestamp": "04/06/2026 11:47",
+    "source_text_snippet": "Dam you have the speed stickers",
+    "notes": "Casual/slang-heavy message — tests retrieval robustness on very informal phrasing."
+  },
+  {
+    "id": "q18",
+    "chat": "diddy",
+    "question": "Was there ever a mark/grade correction mentioned?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 10/12/2024, Diddy mentioned a half-mark increase ('1/2 mark is increased ra').",
+    "source_timestamp": "10/12/2024 10:16",
+    "source_text_snippet": "1/2  mark  is  increased  ra",
+    "notes": "Tests retrieval of a short, spaced-out informal message about grades."
+  },
+  {
+    "id": "q4",
+    "chat": "yaoi",
+    "question": "Did we ever discuss going to a concert together?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No mention of a concert found in the chat history.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": "Negative control - system should NOT confidently retrieve/fabricate an answer here."
+  },
+  {
+    "id": "q5",
+    "chat": "diddy",
+    "question": "When was the deadline for a payment I mentioned?",
+    "question_type": "time-based",
+    "ground_truth_answer": "The last day for payment was mentioned as being due at 8:00pm on 12/11/2024.",
+    "source_timestamp": "12/11/2024 13:29",
+    "source_text_snippet": "Last day for payment today 8:00pm",
+    "notes": "Tests exact time-window retrieval."
+  },
+  {
+    "id": "q6",
+    "chat": "diddy",
+    "question": "Did Diddy ever share an internship opportunity?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 13/11/2024, Diddy shared a Google STEP Internship 2025 opportunity post addressed to a coding community.",
+    "source_timestamp": "13/11/2024 00:36",
+    "source_text_snippet": "Exciting Opportunity Alert! Google STEP Internship 2025 ... Hey, CodeAurora Community!",
+    "notes": "Tests retrieval of a forwarded/announcement-style message, not a casual chat line."
+  },
+  {
+    "id": "q7",
+    "chat": "diddy",
+    "question": "What sorting algorithms were listed in our chat before an exam?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Binary search, linear search, bubble sort, merge sort, selection sort, and insertion sort were listed on 06/11/2024.",
+    "source_timestamp": "06/11/2024 20:47",
+    "source_text_snippet": "binary search | linear search | bubble sort | merge sort | selection sort | insertion srt",
+    "notes": "Tests whether short list-style messages are retrieved correctly, not skipped as noise."
+  },
+  {
+    "id": "v13",
+    "chat": "diddy",
+    "question": "Why didn't I want to accept the low-paying job offer?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "The pay was too low, and getting a 5 LPA role would stop me applying to better companies (08/04/2026).",
+    "source_timestamp": "08/04/2026 16:24",
+    "source_text_snippet": "Nah it's too low",
+    "notes": ""
+  },
+  {
+    "id": "v15",
+    "chat": "diddy",
+    "question": "Cycling ki enduku veltunnav?",
+    "question_type": "code-mixed",
+    "ground_truth_answer": "Diddy teased me about cycling; I replied I was going just for time pass (22/04/2025).",
+    "source_timestamp": "22/04/2025 19:36",
+    "source_text_snippet": "Cycling aa",
+    "notes": ""
+  },
+  {
+    "id": "v17",
+    "chat": "yaoi",
+    "question": "Why might we have had to reschedule the gen AI work?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "I might not get a train from Hyderabad, so we might need to reschedule (23/04/2026).",
+    "source_timestamp": "23/04/2026 13:35",
+    "source_text_snippet": "Yeah if my luck is bad",
+    "notes": ""
+  },
+  {
+    "id": "v18",
+    "chat": "yaoi",
+    "question": "Which evaluation metrics did Yaoi Man list?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "PR-AUC, ROC, F1, precision, recall, macro/micro averages, specificity and sensitivity (25/11/2025).",
+    "source_timestamp": "25/11/2025 23:18",
+    "source_text_snippet": "Uhh",
+    "notes": ""
+  },
+  {
+    "id": "v20",
+    "chat": "yaoi",
+    "question": "Where did ma'am ask us to be?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "At Kripa hall (27/07/2026).",
+    "source_timestamp": "27/07/2026 10:27",
+    "source_text_snippet": "Ma'am asked us to be at kripa hal",
+    "notes": ""
+  },
+  {
+    "id": "v22",
+    "chat": "yaoi",
+    "question": "From which side should you hit or serve to get 140 power?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "From the left side, which gives 140 power instead of 100 (31/12/2025).",
+    "source_timestamp": "31/12/2025 16:44",
+    "source_text_snippet": "ye u should hit or serve from left side",
+    "notes": ""
+  },
+  {
+    "id": "v24",
+    "chat": "diddy",
+    "question": "Did we talk about learning the guitar?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  },
+  {
+    "id": "v3",
+    "chat": "diddy",
+    "question": "By what time did we have to apply for NetApp?",
+    "question_type": "time-based",
+    "ground_truth_answer": "Diddy said to apply for NetApp, with a 10 am deadline (12/05/2026).",
+    "source_timestamp": "12/05/2026 07:02",
+    "source_text_snippet": "10 am deadline",
+    "notes": ""
+  },
+  {
+    "id": "v4",
+    "chat": "yaoi",
+    "question": "What is the extended deadline for Mock Assessment 1?",
+    "question_type": "latest-update",
+    "ground_truth_answer": "The deadline was extended to 22nd June, 11:59 PM (forwarded on 21/06/2026).",
+    "source_timestamp": "21/06/2026 23:43",
+    "source_text_snippet": "Hi All",
+    "notes": ""
+  },
+  {
+    "id": "v7",
+    "chat": "nikhil",
+    "question": "Which microcontroller board were we using, Blue Pill or Black Pill?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "I asked on 14/05/2026 and Nikhil answered Blue Pill.",
+    "source_timestamp": "14/05/2026 10:13",
+    "source_text_snippet": "We are using bluepill or blackpill",
+    "notes": ""
+  },
+  {
+    "id": "v8",
+    "chat": "nikhil",
+    "question": "What did I ask David to do for the video?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "The icons and the vehicle selection part of the video (07/05/2024).",
+    "source_timestamp": "07/05/2024 18:39",
+    "source_text_snippet": "I asked him to do the icons",
+    "notes": ""
+  },
+  {
+    "id": "v9",
+    "chat": "nikhil",
+    "question": "Whose code had errors that I was fixing?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Leela's code (07/05/2024).",
+    "source_timestamp": "07/05/2024 23:37",
+    "source_text_snippet": "Leela's code has some error",
+    "notes": ""
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "n1",
+    "chat": "nikhil",
+    "question": "Did Nikhil invite me to join the Flipkart hackathon?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, Nikhil asked on 14/07/2024 whether I would join them for the Flipkart hackathon.",
+    "source_timestamp": "14/07/2024 10:44",
+    "source_text_snippet": "Dey will u join us for the Flipkart hackathon",
+    "notes": ""
+  },
+  {
+    "id": "n2",
+    "chat": "nikhil",
+    "question": "How long does the Dropbox token stay valid?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "I said on 16/09/2025 that the Dropbox token expires every 4 hours.",
+    "source_timestamp": "16/09/2025 12:48",
+    "source_text_snippet": "Drop box token expires every 4 hrs",
+    "notes": ""
+  },
+  {
+    "id": "n3",
+    "chat": "nikhil",
+    "question": "What workflow did I describe for the student portfolio system?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Student Upload → Faculty Review → Verified Record → Portfolio Generation → Reports & External Verification (07/09/2025).",
+    "source_timestamp": "07/09/2025 21:11",
+    "source_text_snippet": "Student Upload → Faculty Review",
+    "notes": ""
+  },
+  {
+    "id": "n4",
+    "chat": "nikhil",
+    "question": "Which CNN architectures did I list for the image model comparison?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "EfficientNetV2, EfficientNetB4, RegNetX120, VGG16 and VGG19 (27/04/2026).",
+    "source_timestamp": "27/04/2026 12:50",
+    "source_text_snippet": "nikhil",
+    "notes": ""
+  },
+  {
+    "id": "n5",
+    "chat": "nikhil",
+    "question": "How many papers should we keep in the references section?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Nikhil asked; I said apparently 13 papers from Amrita, though that may only apply if publishing through Amrita (01/12/2025).",
+    "source_timestamp": "01/12/2025 01:16",
+    "source_text_snippet": "It seems 13 papers from amrita",
+    "notes": ""
+  },
+  {
+    "id": "n6",
+    "chat": "nikhil",
+    "question": "Which tools and frameworks did I list for the logos on the slide?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Python, PyTorch, Colab, Hugging Face, SciPy and Google Earth (14/10/2025).",
+    "source_timestamp": "14/10/2025 21:33",
+    "source_text_snippet": "we are just using puthon pytorch",
+    "notes": ""
+  },
+  {
+    "id": "n7",
+    "chat": "nikhil",
+    "question": "Did I ask Nikhil to bring something from my shelf?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Yes, on 21/05/2024 I asked Nikhil to bring my record book and file from my shelf.",
+    "source_timestamp": "21/05/2024 09:41",
+    "source_text_snippet": "Bro bring my record book",
+    "notes": ""
+  },
+  {
+    "id": "n8",
+    "chat": "nikhil",
+    "question": "Did I ask about any outlier detection or discretization techniques?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "Yes, on 22/09/2025 I asked Nikhil to explain ChiMerge and LOF.",
+    "source_timestamp": "22/09/2025 11:14",
+    "source_text_snippet": "Can you explain chi merge and lof",
+    "notes": ""
+  },
+  {
+    "id": "n9",
+    "chat": "diddy",
+    "question": "What subject-wise scores did Diddy share?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "ADM 41, Physics 36.5, Linear 30, Discrete 35.5, OOPs 22.5, UID 23.5 (18/04/2024).",
+    "source_timestamp": "18/04/2024 15:21",
+    "source_text_snippet": "Adm 41",
+    "notes": ""
+  },
+  {
+    "id": "n10",
+    "chat": "diddy",
+    "question": "Why would the lab be free on Thursday?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Diddy said Thursday is the ICPC contest, so the lab would be free (21/12/2024).",
+    "source_timestamp": "21/12/2024 23:08",
+    "source_text_snippet": "Thursday is icpc contest",
+    "notes": ""
+  },
+  {
+    "id": "n11",
+    "chat": "diddy",
+    "question": "What corrections were suggested for the YOLO paper draft?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Diddy listed fixes on 07/12/2025: remove start, YOLO architecture, short name for figure 1, change the random upscale/downscale preprocessing, and more.",
+    "source_timestamp": "07/12/2025 01:41",
+    "source_text_snippet": "- Remove start",
+    "notes": ""
+  },
+  {
+    "id": "n12",
+    "chat": "diddy",
+    "question": "Which train was I planning to take to Karunagappally?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "The 1 am train from Aluva to Karunagappally (03/05/2026).",
+    "source_timestamp": "03/05/2026 14:45",
+    "source_text_snippet": "I was planning to take the 1am train from aluva",
+    "notes": ""
+  },
+  {
+    "id": "n13",
+    "chat": "diddy",
+    "question": "Did anyone mention a Cognizant job posting?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yes, on 08/04/2026 I asked Diddy to check the Cognizant job posting on Haveloc.",
+    "source_timestamp": "08/04/2026 13:01",
+    "source_text_snippet": "once cehck the cognizant job posting",
+    "notes": ""
+  },
+  {
+    "id": "n14",
+    "chat": "diddy",
+    "question": "Why was the plagiarism score of our report high?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "I said all the similarity was coming from the template (14/07/2026).",
+    "source_timestamp": "14/07/2026 12:28",
+    "source_text_snippet": "All the similarity is coming from the template",
+    "notes": ""
+  },
+  {
+    "id": "n15",
+    "chat": "diddy",
+    "question": "Intiki evaru vacharu?",
+    "question_type": "code-mixed",
+    "ground_truth_answer": "Relatives came home, so my dad was also working from home (22/04/2025).",
+    "source_timestamp": "22/04/2025 19:47",
+    "source_text_snippet": "Intiki relatives vacharu",
+    "notes": ""
+  },
+  {
+    "id": "n16",
+    "chat": "diddy",
+    "question": "Did we share code for finding roots of an equation using derivatives?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "Yes, on 19/12/2024 I shared MATLAB code for Newton's method using symbolic derivatives.",
+    "source_timestamp": "19/12/2024 14:13",
+    "source_text_snippet": "%Newtons",
+    "notes": ""
+  },
+  {
+    "id": "n17",
+    "chat": "yaoi",
+    "question": "Which OOP topics come after the mid term?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Polymorphism, method overloading/overriding, data abstraction, abstract classes/methods, interfaces and more (16/06/2024).",
+    "source_timestamp": "16/06/2024 19:55",
+    "source_text_snippet": "After mid term",
+    "notes": ""
+  },
+  {
+    "id": "n18",
+    "chat": "yaoi",
+    "question": "What is a fake out in volleyball?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "Yaoi Man asked Dino what a fake out in volleyball is (03/01/2026).",
+    "source_timestamp": "03/01/2026 17:14",
+    "source_text_snippet": "Dino bhai what is fake out in volleyball",
+    "notes": ""
+  },
+  {
+    "id": "n19",
+    "chat": "yaoi",
+    "question": "What food places are there outside the gate?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "A McDonald's and a Subway (21/06/2026).",
+    "source_timestamp": "21/06/2026 11:35",
+    "source_text_snippet": "There is a mcd and subway",
+    "notes": ""
+  },
+  {
+    "id": "n20",
+    "chat": "yaoi",
+    "question": "Did I ask for ideas for the gen AI project?",
+    "question_type": "who-said-what",
+    "ground_truth_answer": "Yes, on 11/04/2026 I asked Yaoi Man where to use gen AI in the project.",
+    "source_timestamp": "11/04/2026 19:14",
+    "source_text_snippet": "Bro for the gen ai project any ideas",
+    "notes": ""
+  },
+  {
+    "id": "n21",
+    "chat": "yaoi",
+    "question": "Which character was I desperate to pull in the game?",
+    "question_type": "paraphrased",
+    "ground_truth_answer": "Citlali; I joked I'd commit crimes if I didn't get her (18/06/2026).",
+    "source_timestamp": "18/06/2026 18:00",
+    "source_text_snippet": "If I wont get citlali",
+    "notes": ""
+  },
+  {
+    "id": "n22",
+    "chat": "yaoi",
+    "question": "Why couldn't I work on my laptop?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "My laptop was away for cleaning (10/06/2026).",
+    "source_timestamp": "10/06/2026 13:50",
+    "source_text_snippet": "after my laptop comes from the cleaning",
+    "notes": ""
+  },
+  {
+    "id": "n23",
+    "chat": "yaoi",
+    "question": "What happened to George Russell at the end of the race?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "I said Russell seemed to lift on the last corner (27/06/2026).",
+    "source_timestamp": "27/06/2026 23:29",
+    "source_text_snippet": "Seems george russel lifted on the last corner",
+    "notes": ""
+  },
+  {
+    "id": "n24",
+    "chat": "yaoi",
+    "question": "How many pity and lucky spins did Yaoi Man have?",
+    "question_type": "factual-recall",
+    "ground_truth_answer": "33 pity and 50 lucky spins (27/12/2025).",
+    "source_timestamp": "27/12/2025 08:53",
+    "source_text_snippet": "I'm at 33 pity",
+    "notes": ""
+  },
+  {
+    "id": "n25",
+    "chat": "nikhil",
+    "question": "Did Nikhil talk about going to a wedding?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  },
+  {
+    "id": "n26",
+    "chat": "diddy",
+    "question": "Did we ever plan to go swimming?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  },
+  {
+    "id": "n27",
+    "chat": "yaoi",
+    "question": "Did we discuss adopting a puppy?",
+    "question_type": "negative-control",
+    "ground_truth_answer": "No, this isn't discussed.",
+    "source_timestamp": null,
+    "source_text_snippet": null,
+    "notes": ""
+  }
+]

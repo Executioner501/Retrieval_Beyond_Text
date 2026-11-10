@@ -1,0 +1,96 @@
+Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
+[8/23/26, 1:01:43 PM] You: Appieee birthdayyyyy
+[8/23/26, 1:01:58 PM] You: 🎉🎉🎉🎉
+[8/23/26, 1:07:15 PM] Dinooooo Amrita: Thenk Youuuuuuu ♥️♥️
+[8/23/26, 1:12:33 PM] You: Parttyyyyyyy
+[9/10/26, 9:33:41 PM] Dinooooo Amrita: I made the pull request
+[9/10/26, 9:33:57 PM] Dinooooo Amrita: I'll send the evaluation files thst are not there in the git
+[9/10/26, 9:34:34 PM] Dinooooo Amrita: <document omitted> results_naive_baseline.json
+[9/10/26, 9:34:34 PM] Dinooooo Amrita: <document omitted> benchmark_summary_report.json
+[9/10/26, 9:34:34 PM] Dinooooo Amrita: <document omitted> comparative_study_results.json
+[9/10/26, 9:34:34 PM] Dinooooo Amrita: <document omitted> results_context_aware.json
+[9/10/26, 9:34:34 PM] Dinooooo Amrita: <document omitted> results_langchain.json
+[9/10/26, 9:34:34 PM] Dinooooo Amrita: <document omitted> results_llamaindex.json
+[9/11/26, 10:52:53 AM] Dinooooo Amrita: Come to college at 12:30 na
+[9/11/26, 10:52:58 AM] You: Okay
+[9/11/26, 10:53:09 AM] Dinooooo Amrita: We will discuss abt ur phase 2 viva and project and go for viva
+[9/11/26, 11:09:13 AM] You: Okayy
+[9/12/26, 1:25:04 PM] Dinooooo Amrita: Dude what should I message the project coordinator
+[9/12/26, 1:25:26 PM] You: Good question
+[9/12/26, 1:25:39 PM] Dinooooo Amrita: Should I say he went home due to a death in the family and won't be back till next week and u have interviews on 16,17,18
+[9/12/26, 1:26:07 PM] You: Yes
+[9/12/26, 1:26:25 PM] Dinooooo Amrita: When Is your interview
+[9/12/26, 1:26:30 PM] You: 17,18
+[9/12/26, 1:26:34 PM] You: 16 I have a test
+[9/12/26, 1:30:23 PM] Dinooooo Amrita: Ma’am, this is Sai Dinesh from Group B10 of CSE B.
+
+One of my team members had to leave for home as his grandfather passed away, and he won’t be able to return until the 22nd of this month. Another team member has an interview and an exam at the CBE campus on the 16th, 17th and 18th.
+
+So, unfortunately, our whole team won’t be present on campus at the same time for the mid review scheduled on 14th September at 10 AM.
+
+Could you please suggest an alternative arrangement for our team’s mid review, Ma’am?
+[9/12/26, 1:30:31 PM] Dinooooo Amrita: This ok?
+[9/12/26, 1:33:33 PM] You: He won't be able to return until 21
+[9/12/26, 1:33:36 PM] You: Or 22
+[9/12/26, 1:34:08 PM] You: Interview and an exam
+[9/12/26, 1:34:35 PM] Dinooooo Amrita: Check now
+[9/12/26, 1:34:42 PM] You: Also, dheeraj cannot attend online since he will be travelling on 14th
+[9/12/26, 1:35:31 PM] Dinooooo Amrita: He will be in cbe from 14th?
+[9/12/26, 1:35:54 PM] You: No
+[9/12/26, 1:35:59 PM] You: 15
+[9/12/26, 1:36:22 PM] You: He will be in train on 14
+[9/12/26, 1:36:37 PM] Dinooooo Amrita: I'll send this and mention that upto 15 th he couldnt attend online as cuz of last rites and stuff
+[9/12/26, 1:36:57 PM] You: Yeah
+[9/12/26, 1:38:34 PM] Dinooooo Amrita: So there is a chance for our review to happen on 15th?
+[9/12/26, 1:38:58 PM] Dinooooo Amrita: Can you ask when he will be at cbe
+[9/12/26, 1:38:59 PM] You: Maybe
+[9/12/26, 1:39:11 PM] Dinooooo Amrita: If she asks I'll say the time
+[9/12/26, 1:39:19 PM] Dinooooo Amrita: Ma’am, this is Sai Dinesh from Group B10 of CSE B.
+
+One of my team members had to leave for home as his grandfather passed away, and he won’t be able to return until the 22nd of this month. He will also be unable to attend the review online until the 15th due to the last rites and related ceremonies.
+
+Another team member has an interview and an exam at the CBE campus on the 16th, 17th and 18th.
+
+So, unfortunately, our whole team won’t be present at the same time on campus for the mid review scheduled on 14th September at 10 AM.
+
+Could you please suggest an alternative arrangement for our team’s mid review, Ma’am?
+[9/12/26, 1:40:13 PM] Dinooooo Amrita: Should I send tis
+[9/12/26, 1:40:31 PM] You: Yes
+[9/12/26, 1:44:57 PM] Dinooooo Amrita: Bro ask him about the viva if possible 
+Since ma'am said it should happen before mid review
+[9/12/26, 1:45:34 PM] You: Yes yes
+[9/12/26, 1:45:44 PM] You: He said he talked to mam
+[9/12/26, 1:45:48 PM] You: Text him
+[9/13/26, 9:25:14 PM] - [Call]
+[9/14/26, 10:07:14 AM] You: https://meet.google.com/igy-njmh-cgu
+[9/28/26, 4:13:36 PM] You: Heyyy
+[9/28/26, 4:13:41 PM] You: Ipo apply cheyali
+[9/28/26, 4:13:51 PM] You: I send you money
+[9/28/26, 4:13:54 PM] Dinooooo Amrita: Nenu dd di vesey
+[9/28/26, 4:14:00 PM] You: Okkk
+[10/7/26, 10:24:32 AM] Dinooooo Amrita: Coming cbe?
+[10/7/26, 7:32:05 PM] Dinooooo Amrita: Room 435
+[10/7/26, 7:32:06 PM] Dinooooo Amrita: Yb
+[10/7/26, 7:39:30 PM] You: Okayy
+[10/7/26, 7:41:43 PM] Dinooooo Amrita: Wht time coming
+[10/7/26, 7:41:51 PM] You: Midnight
+[10/7/26, 11:47:19 PM] Dinooooo Amrita: Ok
+[10/9/26, 12:19:24 AM] Dinooooo Amrita: [Forwarded] <document omitted> 4346174179.pdf
+[10/9/26, 12:19:24 AM] Dinooooo Amrita: [Forwarded] <document omitted> 4346170983.pdf
+[10/22/26, 12:19:54 AM] You: Areyyy
+[10/22/26, 12:20:08 AM] You: Aa 1300 how tell me
+[10/22/26, 12:20:17 AM] You: I forgot some expenses
+[10/22/26, 12:26:57 AM] Dinooooo Amrita: Kenza food bill I paid once
+Then the coimbatore things
+[10/22/26, 12:30:18 AM] You: Kenza ah
+[10/22/26, 12:30:40 AM] You: You paid for cab also ah
+[10/22/26, 12:30:44 AM] You: I missed that
+[10/22/26, 12:30:45 AM] You: Nvm
+[11/6/26, 7:26:27 PM] Dinooooo Amrita: bhai can you work on the project?
+[11/6/26, 7:26:36 PM] You: What should I do
+[11/6/26, 7:26:53 PM] Dinooooo Amrita: can you try making the chunking thing thing that can detect automatically
+[11/6/26, 7:27:01 PM] Dinooooo Amrita: need good results on chats
+[11/6/26, 7:27:09 PM] You: What chunking what detection
+[11/6/26, 7:27:32 PM] Dinooooo Amrita: the mesage chunking that can automatically detect topic shifts
+[11/6/26, 7:27:43 PM] Dinooooo Amrita: instead of hard coded rules
+[11/6/26, 7:30:07 PM] You: Okok

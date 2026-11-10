@@ -1,0 +1,9 @@
+{
+  "excluded": {
+    "q2": "evidence is only a Java code paste",
+    "q3": "evidence is only an invite link",
+    "q8": "evidence is only a MATLAB code paste",
+    "n16": "evidence is only a MATLAB code paste"
+  },
+  "rule": "Questions whose only evidence is a URL or a raw code paste were removed; all other questions were kept regardless of how any system scored on them."
+}
